@@ -1,0 +1,36 @@
+Basics:
+1. Python program for :
+    a)Sum of elements in a list
+    b)Mul of elements in a list
+    c)Largest and smallest element in a list
+    d)To check if list is empty or not
+    e)To clone or copy a list
+    f)To concatenate 2 lists
+    g)To return a list of multiplication of each number of list1 with each number of list 2
+      given that len of both lists is same.
+    h) To access the index of a list
+    i) Unpacking a list(splitting objects using variables)
+2. Python program to remove duplicates from a list
+3. Program to print a list of words whose length is greater than n
+4. Write a program to count the number of strings
+   where the string length is 2 or more and
+   the first and last character are same from a given list of strings.
+5. Write a function that takes two lists and returns True if they have at least one common member.
+6. Write a program to find common items from two lists.
+7. Write a program to get a list, sorted in increasing order by the last element in each tuple
+    from a given list of non-empty tuples.
+    Sample List : [(2, 5), (1, 2), (4, 4), (2, 3), (2, 1)]
+    Expected Result : [(2, 1), (1, 2), (2, 3), (4, 4), (2, 5)]
+    a) Find the min element
+    b) Find the max element
+8. Write a program to count the number of same elements in a list and return a list of tuples
+   where tuple must be(value, count)
+9. Write a program to count the number of elements in a list within a specified range.
+10. Write a program to convert a list of multiple integers into a single largest integer possible.
+    Sample list: [11, 50, 33]
+    Expected Output: 503311
+11. Write a Python program to find missing and additional values in two lists.
+12. Write a Python program to find the list in a list of lists whose sum of elements is the highest.
+    Sample lists: [1,2,3], [4,5,6], [10,11,12], [7,8,9]
+    Expected Output: [10, 11, 12]
+

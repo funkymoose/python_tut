@@ -1,0 +1,51 @@
+# 1.a) Unpack Tuple
+tup = (11,12,15)
+num1,num2,num3 = tup
+print(num1, num2, num3)
+# 1)b) Add an element inside a tuple
+print((10,)+tup)
+#1)c) Add an element at particular position in a tuple
+tup1 =tup[:2]+(13,14)+tup[2:]
+print(tup1)
+
+# 2. Write a program to create a string from a tuple
+tup2 = ('e', "x", "e","r","c",'i',"s","e","s")
+str1 = ''
+for i in tup2:
+    str1+=i
+print(str1)
+# or
+print(''.join(tup2))
+print(tup2)
+# 3. Write a program to remove a item from the tuple
+print(tup2[:2]+tup2[4:8])
+# or
+x = list(tup2)
+x.remove()
+print(tuple(x))
+
+
+# 4. Write a program to unzip a tuple of tuples and return another tuple of tuples
+
+tup = ((1,2),(3,4),(5,6))
+print(tuple(zip(*tup)))
+
+# 5. Write a function to replace the last value in a tuple in a list
+
+def replace(lst):
+    for t in range(len(lst)):
+        lst[t] = lst[t][:-1]+(100,)
+    return lst
+
+# or
+def replace(lst):
+    return ([t[:-1] + (100,) for t in lst])
+
+#6. Write a Python program to calculate the average value of the numbers in a given tuple of tuples.
+def avg(tup):
+    result = [sum(x) / len(x) for x in tup]
+    return(result)
+# and
+def avg(tup):
+    result = [sum(x) / len(x) for x in zip(*tup)]
+    return(result)
